@@ -1,0 +1,6 @@
+framework module Pods_encryptionOfSwiftTests {
+  umbrella header "Pods-encryptionOfSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

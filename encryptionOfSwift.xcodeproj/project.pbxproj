@@ -15,6 +15,7 @@
 		8349FE501F56AFF200C0CBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8349FE4E1F56AFF200C0CBF3 /* LaunchScreen.storyboard */; };
 		8349FE5B1F56AFF200C0CBF3 /* encryptionOfSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349FE5A1F56AFF200C0CBF3 /* encryptionOfSwiftTests.swift */; };
 		8349FE661F56AFF200C0CBF3 /* encryptionOfSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349FE651F56AFF200C0CBF3 /* encryptionOfSwiftUITests.swift */; };
+		8349FE771F58120900C0CBF3 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8349FE761F58120900C0CBF3 /* Encryption.swift */; };
 		92F42FF300ADFF76E1754097 /* Pods_encryptionOfSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4577F92E9E598A5A58ACE84E /* Pods_encryptionOfSwiftTests.framework */; };
 		F7BCA445DD3E2ECEECBF2682 /* Pods_encryptionOfSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF27ABCDF16E64AEC724C4 /* Pods_encryptionOfSwiftUITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		8349FE611F56AFF200C0CBF3 /* encryptionOfSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encryptionOfSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8349FE651F56AFF200C0CBF3 /* encryptionOfSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encryptionOfSwiftUITests.swift; sourceTree = "<group>"; };
 		8349FE671F56AFF200C0CBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8349FE761F58120900C0CBF3 /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 		83FF27ABCDF16E64AEC724C4 /* Pods_encryptionOfSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_encryptionOfSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C017732AB23F4EF07E29F /* Pods-encryptionOfSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-encryptionOfSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-encryptionOfSwiftUITests/Pods-encryptionOfSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AF5868002D4D144D993A8C /* Pods-encryptionOfSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-encryptionOfSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-encryptionOfSwift/Pods-encryptionOfSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				8349FE451F56AFF200C0CBF3 /* AppDelegate.swift */,
 				8349FE471F56AFF200C0CBF3 /* ViewController.swift */,
+				8349FE761F58120900C0CBF3 /* Encryption.swift */,
 				8349FE491F56AFF200C0CBF3 /* Main.storyboard */,
 				8349FE4C1F56AFF200C0CBF3 /* Assets.xcassets */,
 				8349FE4E1F56AFF200C0CBF3 /* LaunchScreen.storyboard */,
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8349FE771F58120900C0CBF3 /* Encryption.swift in Sources */,
 				8349FE481F56AFF200C0CBF3 /* ViewController.swift in Sources */,
 				8349FE461F56AFF200C0CBF3 /* AppDelegate.swift in Sources */,
 			);
@@ -698,6 +702,7 @@
 				8349FE6C1F56AFF200C0CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8349FE6D1F56AFF200C0CBF3 /* Build configuration list for PBXNativeTarget "encryptionOfSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +711,7 @@
 				8349FE6F1F56AFF200C0CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8349FE701F56AFF200C0CBF3 /* Build configuration list for PBXNativeTarget "encryptionOfSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +720,7 @@
 				8349FE721F56AFF200C0CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
